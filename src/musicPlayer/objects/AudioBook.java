@@ -11,17 +11,6 @@ public class AudioBook implements Playable {
     private String writer;
     private int rate;
 
-
-    @Override
-    public void play() {
-        System.out.println("Tocando o album ".concat(name).concat("!"));
-    }
-
-    @Override
-    public void stop() {
-        System.out.println("Album ".concat(name).concat(" pausado!"));
-    }
-
     public AudioBook(int id, String name, File audioBookArt, String writer, int rate) {
         this.id = id;
         this.name = name;
@@ -68,5 +57,15 @@ public class AudioBook implements Playable {
 
     public void setRate(int rate) {
         this.rate = rate;
+    }
+
+    @Override
+    public void play() {
+        System.out.println("Tocando o album ".concat(name).concat("!"));
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Album ".concat(name).concat(" pausado!"));
     }
 }
