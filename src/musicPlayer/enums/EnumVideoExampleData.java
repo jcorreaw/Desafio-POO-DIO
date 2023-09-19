@@ -1,5 +1,7 @@
 package musicPlayer.enums;
 
+import musicPlayer.objects.Video;
+
 import java.util.ArrayList;
 import java.util.List;
 

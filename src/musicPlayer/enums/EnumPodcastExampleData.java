@@ -1,7 +1,10 @@
 package musicPlayer.enums;
 
+import musicPlayer.objects.Podcast;
+
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 public enum EnumPodcastExampleData {
     PODPAH (0,"Podpah Podcast."),
