@@ -2,6 +2,7 @@ package phoneApp.enums;
 
 import phoneApp.objects.Contact;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public enum EnumContactsExampleData {
